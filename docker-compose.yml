@@ -1,0 +1,20 @@
+version: '2'
+ 
+services:
+  website:
+    build: .
+    ports:
+      - '3001:3000'
+    volumes:
+      - '.:/onebnb_api'
+    networks:
+      - onebnbapi_default
+    environment:
+      ELASTICSEARCH_URL: elasticsearch:9200
+ 
+volumes:
+  postgres:
+ 
+networks:
+  onebnbapi_default:
+    external: true

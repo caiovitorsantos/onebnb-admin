@@ -1,0 +1,18 @@
+development:
+  cloud_name: dowqcjeoj
+  api_key: '229574244544363'
+  api_secret: 6qtpI18GvO_nXx8dXmgCrhQOGCA
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dowqcjeoj
+  api_key: '229574244544363'
+  api_secret: 6qtpI18GvO_nXx8dXmgCrhQOGCA
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dowqcjeoj
+  api_key: '229574244544363'
+  api_secret: 6qtpI18GvO_nXx8dXmgCrhQOGCA
+  enhance_image_tag: true
+  static_image_support: false
