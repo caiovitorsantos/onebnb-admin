@@ -32,11 +32,17 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'geocoder'
+
+gem 'searchkick'
+
 gem 'mini_magick'
 gem 'cloudinary'
 gem 'carrierwave'
 
 gem 'devise'
+
+gem 'prawn-rails'
 
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', github: 'sferik/rails_admin'
